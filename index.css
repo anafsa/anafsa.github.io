@@ -496,7 +496,6 @@ button:focus {
         width: 60%;
         margin: 4vh auto;
         box-shadow: 0px 10px 20px rgba(18, 79, 68, 0.8);
-        background: rgb(18, 79, 68);
         color: #fff;
     }
 
@@ -635,8 +634,8 @@ img.image_logos{
     padding: 0px 10px 0px 10px;
 }
 
-table.table_tools th:first-child, td:first-child,  th:last-child, td:last-child {
-    width: 0%;
+table.table_tools {
+    border-collapse: collapse;
 }
 
 /* Cite this */
