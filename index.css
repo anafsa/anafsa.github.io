@@ -658,6 +658,7 @@ table.table_tools th:first-child, td:first-child,  th:last-child, td:last-child 
     padding: 20px;
     border: 1px solid #ddd;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    z-index: 99999 !important;
 }
 
 .close-button {
